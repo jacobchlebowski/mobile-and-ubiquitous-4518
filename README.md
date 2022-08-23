@@ -1,2 +1,2 @@
 # mobile-and-ubiquitous-4518
-Mobile &amp; Ubiquitous Computing
+Mobile and Ubiquitous Computing
