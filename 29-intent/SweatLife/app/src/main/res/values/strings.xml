@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sweat Life</string>
+    <string name="upper_body">Upper Body</string>
+    <string name="return_button">Return</string>
+    <string name="bench_press">Bench Press</string>
+    <string name="favorite">Favorite</string>
+    <string name="date">Input Date to Workout (m/d/y)</string>
+    <string name="submit">Submit</string>
+</resources>
