@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sweat Life</string>
+    <string name="upper_body">Upper Body</string>
+    <string name="lower_body">Lower Body</string>
+    <string name="core">Core</string>
+    <string name="cardio">Cardio</string>
+    <string name="return_button">Return</string>
+    <string name="bench_press">Bench Press</string>
+    <string name="favorite">Favorite</string>
+    <string name="date">Input Date to Workout (m/d/y)</string>
+    <string name="submit">Submit</string>
+    <string name="home">Home Page</string>
+    <string name="timer">Timer</string>
+    <string name="dates">Dates</string>
+    <string name="calendar">Outlook Calendar</string>
+    <string name="datePage">Workout Dates</string>
+    <string name="delete">Delete</string>
+</resources>
