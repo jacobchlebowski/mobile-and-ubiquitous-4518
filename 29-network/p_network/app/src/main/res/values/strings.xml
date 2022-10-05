@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">p_network</string>
+    <string name="post">Post!</string>
+    <string name="get">Get!</string>
+    <string name="put">Put!</string>
+    <string name="delete">Delete!</string>
+    <string name="server">Currently on server</string>
+    <string name="inputValue">Input a value</string>
+    <string name="inputID">Input an ID</string>
+</resources>
