@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Sweat Life</string>
+    <string name="upper_body">Upper Body</string>
+    <string name="lower_body">Lower Body</string>
+    <string name="core">Core</string>
+    <string name="cardio">Cardio</string>
+    <string name="return_button">Return</string>
+    <string name="bench_press">Bench Press</string>
+    <string name="favorite">Favorite</string>
+    <string name="date">Input Date to Workout</string>
+    <string name="submit">Submit</string>
+    <string name="home">Home Page</string>
+    <string name="timer">Timer</string>
+    <string name="dates">Dates</string>
+    <string name="calendar">Outlook Calendar</string>
+    <string name="datePage">Workout Dates</string>
+    <string name="delete">Delete</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="hammer_curls">Hammer Curls</string>
+    <string name="overhead_press">Overhead Press</string>
+    <string name="incline_press">Incline Press</string>
+    <string name="face_pulls">Face Pulls</string>
+    <string name="lateral_raises">Lateral Raises</string>
+    <string name="decline_press">Decline Press</string>
+    <string name="barbell_rows">Barbell Rows</string>
+    <string name="push_ups">Push Ups</string>
+    <string name="leg_press">Leg Press</string>
+    <string name="squats">Squats</string>
+    <string name="calf_raises">Calf Raises</string>
+    <string name="leg_curls">Leg Curls</string>
+    <string name="crunches">Crunches</string>
+    <string name="planks">Planks</string>
+    <string name="leg_raises">Leg Raises</string>
+    <string name="treadmill">Treadmill</string>
+    <string name="elliptical">Elliptical</string>
+    <string name="bike">Bike</string>
+
+</resources>

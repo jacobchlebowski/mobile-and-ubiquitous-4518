@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/upper_body"
+        android:textSize="50sp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginStart="11dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <Button
+            android:id="@+id/benchPress"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/bench_press"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/favoriteBenchPress"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/favorite"
+            android:textSize="11sp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/hammerCurls"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/hammer_curls"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/favoriteHammerCurls"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/favorite"
+            android:textSize="11sp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/overheadPress"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/overhead_press"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/favoriteOverheadPress"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/favorite"
+            android:textSize="11sp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/inclinePress"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/incline_press"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/favoriteInclinePress"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/favorite"
+                android:textSize="11sp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/facePulls"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/face_pulls"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/favoriteFacePulls"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/favorite"
+                android:textSize="11sp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/lateralRaises"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/lateral_raises"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/favoriteLateralRaises"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/favorite"
+                android:textSize="11sp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/declinePress"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/decline_press"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/favoriteDeclinePress"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/favorite"
+                android:textSize="11sp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/barbellRows"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/barbell_rows"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/favoriteBarbellRows"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/favorite"
+                android:textSize="11sp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/pushUps"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/push_ups"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/favoritePushUps"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/favorite"
+                android:textSize="11sp"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white" />
+        </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/return_Button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/return_button"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

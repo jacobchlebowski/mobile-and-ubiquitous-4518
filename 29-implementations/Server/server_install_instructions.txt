@@ -1,0 +1,5 @@
+Open main.py in VSCode
+In the terminal, do the following commands:
+pip install tornado
+pip install pymongo
+pip install dnspython
